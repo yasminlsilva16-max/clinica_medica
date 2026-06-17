@@ -1,0 +1,29 @@
+{
+  "name": "clinica_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.5",
+    "prisma": "^6.19.3",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
+ 
